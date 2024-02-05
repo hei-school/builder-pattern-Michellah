@@ -1,4 +1,6 @@
-public class CarManualBuilder implements Builder{
+package org.example;
+
+public class CarManualBuilder implements Builder {
     private Manual manual;
 
     public CarManualBuilder() {

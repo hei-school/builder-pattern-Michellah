@@ -1,4 +1,6 @@
-public class Car {
+package org.example;
+
+public class Manual {
     private boolean hasGPS;
     private boolean hasTripComputer;
     private int numberOfSeats;
@@ -20,9 +22,10 @@ public class Car {
         this.engine = engine;
     }
 
+
     @Override
     public String toString() {
-        return "Car{" +
+        return "Manual{" +
                 "hasGPS=" + hasGPS +
                 ", hasTripComputer=" + hasTripComputer +
                 ", numberOfSeats=" + numberOfSeats +

@@ -1,4 +1,6 @@
-public class main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
         Director director = new Director();
 
@@ -9,7 +11,6 @@ public class main {
         CarManualBuilder manualBuilder = new CarManualBuilder();
         director.makeSUV(manualBuilder);
         Manual manual = manualBuilder.getResult();
-
 
         System.out.println("Car details: " + car);
         System.out.println("Manual details: " + manual);

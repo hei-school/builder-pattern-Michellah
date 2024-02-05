@@ -1,3 +1,5 @@
+package org.example;
+
 public class CarBuilder implements Builder{
     private Car car;
 
@@ -28,6 +30,7 @@ public class CarBuilder implements Builder{
     public void setGPS() {
         this.car.setHasGPS(true);
     }
+
 
     public Car getResult() {
         return this.car;
